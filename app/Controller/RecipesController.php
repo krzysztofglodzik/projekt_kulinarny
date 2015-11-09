@@ -20,7 +20,7 @@ class RecipesController extends AppController
     public function beforeFilter()
     {
         parent::beforeFilter();
-        $this->Auth->allow('all','view');//nazwy metod dostepne bez zalogownaia
+        $this->Auth->allow('all', 'view'); //nazwy metod dostepne bez zalogownaia
     }
     /**
      * index method
@@ -40,25 +40,25 @@ class RecipesController extends AppController
     /**
      * 
      */
-    public function all($category=null)
+    public function all($category = null)
     {
         $this->loadModel('Category');
         $categories = $this->Category->find('all'); // przeszukuje wszystkie kategorie w bazie
-        $name = '';// zmienna pomocnicza pola wyszukiwarki do zapamietwania
+        $name = ''; // zmienna pomocnicza pola wyszukiwarki do zapamietwania
 
         $conditions = array(); // tablica na warunki wyszukiwania
-        if ($category!= null){
-            $conditions= array('Recipe.category_id' =>  $category );
+        if ($category != null) {
+            $conditions = array('Recipe.category_id' => $category);
         }
-        if (isset($this->params['url']['name'])) {//jezeli istnieje parametr name w adresie url to->
-            $name = $this->params['url']['name'];// przypisanie do pomocniczej zmiennej name
+        if (isset($this->params['url']['name'])) { //jezeli istnieje parametr name w adresie url to->
+            $name = $this->params['url']['name']; // przypisanie do pomocniczej zmiennej name
             $conditions = array('Recipe.name LIKE' => '%' . $name . '%'); //ustalamy warunki wyszukiwania
         }
         $this->loadModel('Recipe'); // laduje model przepisy
         $recipes = $this->Recipe->find('all', array('conditions' => $conditions)); //przekazuje wszystkie przepisy w bazie
-                                                                                // pozostawia wyszukiwana fraze w wyszukiwarce po przeladowaniu strony
-        $this->set(compact('categories', 'recipes', 'name'));  // przekazuje zmienna categories do widoku
-                                                        // przekazuje zmienna recipes do pliku widoku
+        // pozostawia wyszukiwana fraze w wyszukiwarce po przeladowaniu strony
+        $this->set(compact('categories', 'recipes', 'name')); // przekazuje zmienna categories do widoku
+        // przekazuje zmienna recipes do pliku widoku
     }
 
 
@@ -158,5 +158,27 @@ class RecipesController extends AppController
             $this->Session->setFlash(__('Przepis nie może zostać usunięty. Proszę spróbować ponownie.'));
         }
         return $this->redirect(array('action' => 'index'));
+    }
+
+    public function deleteComment($id)
+    {
+        $this->loadModel('Comment'); //zaladowanie tabeli z komentarzami
+        $this->Comment->id = $id; // ustawienie identyfikatora obrabianego komentarza
+        if (!$this->Comment->exists()) { //sprawdzanie czy komentarz istnieje
+            throw new NotFoundException(__('Nie znaleziono takiego komentarza.'));
+        }
+        $recipe = $this->Comment->field('recipe_id'); // pobieramy id przepisu do ktorego nalezy komentarz
+        if ($this->Session->check('Auth.User.id') && $this->Session->read('Auth.User.id') ==
+            $this->Comment->field('user_id')) { // sprawdzanie czy uzytkownik jest zalogowany i czy komentarz nalezy do niego
+            if ($this->Comment->delete()) { //usuwanie komentarza
+                $this->Session->setFlash(__('Komentarz został usunięty.'));
+            } else {
+                $this->Session->setFlash(__('Komentarz nie może zostać usunięty. Proszę spróbować ponownie.'));
+            }
+        } else {
+            $this->Session->setFlash(__('Nie możesz usunąć tego komentarza.'));
+        }
+
+        return $this->redirect(array('controller' => 'recipes','action' => 'view',$recipe));//  przekierowanie na strone przepisu
     }
 }

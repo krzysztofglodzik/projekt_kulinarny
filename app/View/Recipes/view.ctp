@@ -72,7 +72,9 @@
 			<td><?php echo $comment['comment']; ?></td>
 			<td>  <?php echo $levels[$comment['level_id']]; ?></td>
 			<td><?php echo $comment['time']; ?></td>
-            <td><?php echo $this->Html->link(__('Usuń komentarz'), array('action' => 'deleteComment', $comment['id'])); ?>  </td>
+            <td><?php
+            if (isset ($userData['User']['id']) &&  $userData['User']['id'] == $comment['user_id'])
+             echo $this->Html->link(__('Usuń komentarz'), array('action' => 'deleteComment', $comment['id'])); ?>  </td>
 		</tr>
 	<?php endforeach; ?>
 	</table>

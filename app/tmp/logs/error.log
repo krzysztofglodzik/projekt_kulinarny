@@ -420,3 +420,23 @@ Request URL: /wpad.dat
 Stack Trace:
 #0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-11-09 21:30:26 Error: [MissingActionException] Action RecipesController::deleteComment() could not be found.
+Exception Attributes: array (
+  'controller' => 'RecipesController',
+  'action' => 'deleteComment',
+)
+Request URL: /recipes/deleteComment/13
+Stack Trace:
+#0 C:\xampp\htdocs\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-11-09 21:48:18 Error: [NotFoundException] Nieprawidłowy przepis.
+Request URL: /recipes/view
+Stack Trace:
+#0 [internal function]: RecipesController->view()
+#1 C:\xampp\htdocs\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(RecipesController), Array)
+#2 C:\xampp\htdocs\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
