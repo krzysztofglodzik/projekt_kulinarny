@@ -1,0 +1,422 @@
+2015-10-27 13:04:33 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/recipes/
+Stack Trace:
+#0 /home/kkrystek/domains/mariusz.kgtech.pl/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/kkrystek/domains/mariusz.kgtech.pl/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/kkrystek/domains/mariusz.kgtech.pl/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-10-27 13:04:40 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/recipes/
+Stack Trace:
+#0 /home/kkrystek/domains/mariusz.kgtech.pl/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/kkrystek/domains/mariusz.kgtech.pl/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/kkrystek/domains/mariusz.kgtech.pl/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-10-27 13:04:45 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/recipes/
+Stack Trace:
+#0 /home/kkrystek/domains/mariusz.kgtech.pl/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/kkrystek/domains/mariusz.kgtech.pl/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/kkrystek/domains/mariusz.kgtech.pl/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-10-27 13:06:35 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/recipes/
+Stack Trace:
+#0 /home/kkrystek/domains/mariusz.kgtech.pl/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/kkrystek/domains/mariusz.kgtech.pl/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/kkrystek/domains/mariusz.kgtech.pl/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-10-27 13:22:44 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:23:14 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:23:14 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:23:14 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:23:15 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:23:15 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:23:15 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:23:15 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:23:15 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:23:15 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:23:15 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:23:15 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:23:16 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:23:16 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:23:16 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:23:16 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:23:16 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:23:16 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:23:16 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:23:16 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:23:17 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:23:17 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:23:17 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:36:01 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:37:43 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:37:43 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:44:00 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:44:24 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:44:24 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:44:25 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:44:25 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:44:25 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:44:25 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:44:25 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:44:25 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:44:26 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:44:26 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:48:41 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 13:52:43 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 14:03:21 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 14:03:27 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-27 14:03:36 Error: [MissingControllerException] Controller class Wpad.datController could not be found.
+Exception Attributes: array (
+  'class' => 'Wpad.datController',
+  'plugin' => NULL,
+)
+Request URL: /wpad.dat
+Stack Trace:
+#0 C:\xampp\htdocs\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
