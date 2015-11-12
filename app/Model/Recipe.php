@@ -16,7 +16,8 @@ class Recipe extends AppModel {
  * @var string
  */
 	public $displayField = 'name';
-
+    public $virtualFields = array('CommentsCount'=>'SELECT COUNT(*) FROM comments as Comment WHERE Comment.recipe_id = Recipe.id');
+    // pole wirtualne, gdzie zpaisywane jest liczba komentarzy do kazdego przepisu 
 /**
  * Validation rules
  *

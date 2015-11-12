@@ -11,12 +11,26 @@ foreach ($categories as $category) {
 }
 ?></ul>
 </div>
-<div style="width: 50%;float: left;">
+<div style="width: 25%;float: left;">
 <h3>Lista przepisów</h3>
 <ul>
 <?php 
 foreach ($recipes as $recipe) {
   echo '<li>'.$this->Html->link($recipe['Recipe']['name'],array('controller'=>'recipes','action'=>'view',$recipe['Recipe']['id'])).'</li>';  // zmienna przekazana z widoku i iterujemy po kazdym przepisie i wypisujemy
+  
+	
+}
+?></ul>
+
+</div>
+<div style="width: 25%;float: left;">
+<h3>TOP komentowane</h3>
+<ul>
+<?php 
+foreach ($TopComment as $recipe) {
+  echo '<li>'.$this->Html->link($recipe['Recipe']['name'],array('controller'=>'recipes','action'=>'view',$recipe['Recipe']['id'])).
+  ' ('.$recipe['Recipe']['CommentsCount'].')'.// pozwala wyswietlic liczbe komentarzy w nawiasie przy przepisie
+  '</li>'; 
   
 	
 }

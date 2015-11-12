@@ -56,9 +56,13 @@ class RecipesController extends AppController
         }
         $this->loadModel('Recipe'); // laduje model przepisy
         $recipes = $this->Recipe->find('all', array('conditions' => $conditions)); //przekazuje wszystkie przepisy w bazie
+        $TopComment =  $this->Recipe->find('all', array('limit'=>5, 'order' => array('Recipe.CommentsCount DESC'),'conditions' => $conditions));
         // pozostawia wyszukiwana fraze w wyszukiwarce po przeladowaniu strony
-        $this->set(compact('categories', 'recipes', 'name')); // przekazuje zmienna categories do widoku
+        //debug($TopComment);
+        $this->set(compact('categories', 'recipes', 'name','TopComment')); // przekazuje zmienna categories do widoku
         // przekazuje zmienna recipes do pliku widoku
+        
+        
     }
 
 
