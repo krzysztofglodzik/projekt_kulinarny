@@ -194,9 +194,9 @@ public function processUpload($check=array()) {
 		$this->data[$this->alias]['picture'] = $this->path;
 	}
     
-        if (isset($this->data[$this->alias]['user_id'])) {
-        App::uses('CakeSession', 'Model/Datasource');
-  $Session = new CakeSession();
+        if (!isset($this->data[$this->alias]['user_id'])) {
+			App::uses('CakeSession', 'Model/Datasource');
+			$Session = new CakeSession();
             $this->data[$this->alias]['user_id'] = $Session->read('Auth.User.id');
         }
 		return parent::beforeSave($options);

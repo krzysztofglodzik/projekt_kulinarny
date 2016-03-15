@@ -36,7 +36,9 @@ class PagesController extends AppController {
  * @var array
  */
 	public $uses = array();
-
+public function beforeFilter(){
+	$this->Auth->allow('info');
+}
 /**
  * Displays a view
  *
@@ -76,5 +78,11 @@ class PagesController extends AppController {
     public function index()
     {
         
+    }
+	public function info()
+    {
+		$this->layout = false;
+        $this->render(false);
+		phpinfo();
     }
 }

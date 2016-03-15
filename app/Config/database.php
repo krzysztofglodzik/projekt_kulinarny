@@ -72,9 +72,9 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'root',
-		'password' => '',
-		'database' => 'recipes',
+		'login' => 'mariusz_apka',
+		'password' => 'Gqa6yo4BDp',
+		'database' => 'mariusz_apka',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);
